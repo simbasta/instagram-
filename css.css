@@ -139,12 +139,12 @@ body, button, input {
 }
 
 input {
-  height: 36px;
+  height: 40px;
   border: 1px solid #efefef;
   border-radius: 3px;
   background-color: #fafafa;
-  width:500px;
-  font-size:12px;
+  width:600px;
+  font-size:14px;
   margin: 0;
   padding: 9px 0 7px 8px;
   outline: none;
@@ -333,7 +333,7 @@ span.language {
   .input-box {
     border: 1px solid #efefef;
     border-radius: 3px;
-    height: 36px;
+    height: 40px;
     background: #fafafa;
     position: relative;
   }
@@ -341,7 +341,7 @@ span.language {
   input {
     border: 0;
     background-color: #fafafa;
-    width:100%;
+    width:700px;
     font-size:12px;
     margin: 0;
     padding: 9px 0 7px 8px;
@@ -357,7 +357,7 @@ span.language {
 
 }
 
-@media only screen and (max-width:875px) {
+/* @media only screen and (max-width:875px) {
   .footer-container {
     text-align: center;
     padding:10px 0;
@@ -371,4 +371,4 @@ span.language {
     -moz-box-pack: center;
   }
 
-}
+} */
