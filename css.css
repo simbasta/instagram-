@@ -146,7 +146,7 @@ body, button, input {
 }
 
 input {
-  height: 65px;
+  height: 77px;
   border: 2px solid #b7b7b7;
   border-radius: 4px;
   background-color:#f5f5f5;
@@ -176,10 +176,10 @@ input#name:focus, input#password:focus {
   background: #3897f0;
   border:1px solid #3897f0;
   color:#fff;
-  border-radius:6px;
+  border-radius:19px;
   font-weight:600;
   font-size: 26px;
-  height: 50px;
+  height: 65px;
   line-height: 26px;
   outline: none;
   white-space: nowrap;
@@ -235,6 +235,15 @@ input#name:focus, input#password:focus {
 
 /* FOOTER */
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+
   background-color: #fafafa;
   order: 5;
   padding: 0 20px;
@@ -309,7 +318,7 @@ span.language {
   align-items: center;
 }
 .img-footer-zeb{
-  width: 35%;
+  width: 100%;
 }
 
 
