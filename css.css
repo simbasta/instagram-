@@ -143,7 +143,7 @@ input {
   border: 1px solid #efefef;
   border-radius: 3px;
   background-color: #fafafa;
-  width:100%;
+  width:500px;
   font-size:12px;
   margin: 0;
   padding: 9px 0 7px 8px;
@@ -168,7 +168,7 @@ input#name:focus, input#password:focus {
   background: #3897f0;
   border:1px solid #3897f0;
   color:#fff;
-  border-radius:3px;
+  border-radius:6px;
   font-weight:600;
   font-size: 14px;
   height: 28px;
@@ -321,7 +321,7 @@ span.language {
     background: #3897f0;
     border:1px solid #3897f0;
     color:#fff;
-    border-radius:3px;
+    border-radius:6px;
     font-weight:600;
     font-size: 14px;
     height: 28px;
