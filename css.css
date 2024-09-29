@@ -70,19 +70,19 @@ body, button, input {
   -webkit-box-ordinal-group: 5;
 }
 
-.wrapper {
+/* .wrapper {
   min-height:100%;
   overflow: hidden;
-}
+} */
 
-.wrapper, .article {
+/* .wrapper, .article {
   flex-grow: 1;
   justify-content: center;
   -webkit-box-flex: 1;
     -moz-box-flex: 1;
   -webkit-box-pack: center;
     -moz-box-pack: center;
-}
+} */
 
 .article {
   /* flex-direction: row;
@@ -119,6 +119,7 @@ body, button, input {
   margin:0 0 10px;
   padding: 10px 0;
   align-items: center;
+  margin-top: 200px;
 }
 
 .header {
@@ -127,8 +128,9 @@ body, button, input {
 
 .logo {
   background: cover no-repeat;
-  width:250px;
+  width:600px;
   height:auto;
+  margin-bottom: 73px;
 }
 
 .form {
@@ -144,18 +146,19 @@ body, button, input {
 }
 
 input {
-  height: 40px;
+  height: 65px;
   border: 2px solid #b7b7b7;
   border-radius: 4px;
   background-color:#f5f5f5;
-  width:600px;
-  font-size:14px;
+  width:700px;
+  font-size:30px;
   margin: 0;
   padding: 9px 0 7px 8px;
   outline: none;
   overflow: hidden;
   text-overflow: ellipsis;
   box-sizing: border-box;
+  margin-bottom: 7px;
 }
 input#name:focus, input#password:focus {
   border-color:#bbb;
@@ -175,8 +178,8 @@ input#name:focus, input#password:focus {
   color:#fff;
   border-radius:6px;
   font-weight:600;
-  font-size: 14px;
-  height: 28px;
+  font-size: 26px;
+  height: 50px;
   line-height: 26px;
   outline: none;
   white-space: nowrap;
@@ -184,9 +187,9 @@ input#name:focus, input#password:focus {
 }
 
 .forgot, .forgot:active, .forgot:hover, .forgot:visited {
-  font-size:14px;
-  margin-top:7px;
-  margin-bottom:24px;
+  font-size: 29px;
+  margin-top: 37px;
+  margin-bottom:70px;
   text-align: center;
   color:#0f91ef;
   line-height: 14px!important;
@@ -196,7 +199,7 @@ input#name:focus, input#password:focus {
   text-align:center;
   margin:15px;
   color:#262626;
-  font-size:14px;
+  font-size:35px;
 }
 
 .text a, .text a:visited, .text a:hover, .text a:active {
@@ -243,8 +246,8 @@ input#name:focus, input#password:focus {
   flex-direction: row;  
   flex-wrap:wrap;
   background-color: #fafafa;
-  justify-content: space-between;
-  padding: 38px 0;
+  /* justify-content: space-between; */
+  /* padding: 38px 0; */
   max-width:935px;
   font-size:12px;
   font-weight:600;
@@ -257,9 +260,9 @@ input#name:focus, input#password:focus {
   border-top: 10px;
 }
 
-.footer-nav {
+/* .footer-nav {
   max-width:100%;
-}
+} */
 
 .footer-nav ul {
   margin-right:16px;
@@ -308,8 +311,26 @@ span.language {
 .img-footer-zeb{
   width: 35%;
 }
+
+
+/* mon css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries */
-@media (max-width:450px) {
+@media screen and (max-width:450px) {
   .main {
     background-color: #fff;
   }
@@ -327,7 +348,7 @@ span.language {
 
   .logo {
     background: cover no-repeat;
-    width:175px;
+    width:700px;
     height:auto;
     margin:0 auto;
   }
