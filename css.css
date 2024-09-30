@@ -165,7 +165,10 @@ input#name:focus, input#password:focus {
 }
 
 .button-box {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
   position: relative;
   margin: 8px 40px;
 }
@@ -333,7 +336,7 @@ span.language {
 
 .btnF{ 
   cursor: pointer;
-  width: 90%;
+  width: 88%;
   padding:0 8px; 
   background: #3897f0;
   border:1px solid #3897f0;
@@ -345,7 +348,6 @@ span.language {
   line-height: 26px;
   outline: none;
   white-space: nowrap;
-  margin-left: 5%;
   margin-bottom: 20%;
   display: flex;
   flex-direction: row;
@@ -354,6 +356,15 @@ span.language {
 }
 
 
+
+
+.button-boxF{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
 
 
 
