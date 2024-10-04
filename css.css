@@ -180,8 +180,8 @@ input#name:focus, input#password:focus {
   border:1px solid #3897f0;
   color:#fff;
   border-radius:16px;
-  font-weight:600;
-  font-size: 29px;
+  font-weight:700;
+  font-size: 33px;
   height: 85px;
   line-height: 26px;
   outline: none;
@@ -190,7 +190,7 @@ input#name:focus, input#password:focus {
 }
 
 .forgot, .forgot:active, .forgot:hover, .forgot:visited {
-  font-size: 29px;
+  font-size: 33px;
   margin-top: 37px;
   margin-bottom:70px;
   text-align: center;
@@ -202,7 +202,7 @@ input#name:focus, input#password:focus {
   text-align:center;
   margin:15px;
   color:#262626;
-  font-size:35px;
+  font-size:39px;
 }
 
 .text a, .text a:visited, .text a:hover, .text a:active {
@@ -343,7 +343,7 @@ span.language {
   color:#fff;
   border-radius:16px;
   font-weight:600;
-  font-size: 29px;
+  font-size: 33px;
   height: 83px;
   line-height: 26px;
   outline: none;
